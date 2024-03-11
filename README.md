@@ -20,6 +20,7 @@ For 64-bit hash codes:
 (2) python SKDCH-it/xmedia/student/train_64_i2t.py
 
 # Citing
+Please cite the following paper if you use our code.
 ```
 @inproceedings{su2023semi,
   title={Semi-supervised knowledge distillation for cross-modal hashing},
