@@ -1,6 +1,23 @@
-# SKDCH_TMM2023
-Source Code of TMM 2023 paper: Semi-Supervised Knowledge Distillation for Cross-Modal Hashing.
+# Introduction
+This is the source code of TMM 2023 paper "Semi-Supervised Knowledge Distillation for Cross-Modal Hashing".
 
+# Usage
+For 64-bit hash codes:
+## 1. Installation
+- Python on v3.7
+- CUDA on v11.4
+- pip install -r requirements.txt
+
+## 2. Train teacher model
+(1) python SKDCH-it/xmedia/teacher/teacher_pretrain_i2t_64.py
+(2) python SKDCH-it/xmedia/teacher/train_64_i2t.py
+
+## 3. Generating pseudo label
+(1) python SKDCH-it/xmedia/pseudo_label/updating_labels.py
+
+## 4. Train student model
+(1) python SKDCH-it/xmedia/student/teacher_pretrain_i2t_64.py
+(2) python SKDCH-it/xmedia/student/train_64_i2t.py
 
 # Citing
 ```
